@@ -40,7 +40,7 @@
 
 1. 建群参数包括，群名称，群简介，群类型，群权限标志;
 2. 名称、简介长度不超过191字节;
-3. 权限可选 kOnlyAdminCanInvite //仅创建者可以发起邀请\(或者拉人\)  kDisallowJoinApply //不允许任何人申请加入群 kNeedVerifyJoinApply //申请加入群需要向创建者申请 kOnlyAdminCanSendMsg //仅创建者可以发消息
+3.  kOnlyAdminCanInvite //仅创建者可以发起邀请\(或者拉人\)  kAdminCanQuit //群主可以退群  kMemberCanChangeGroupName //群成员（非群主）可以修改群名称  kDisallowJoinApply //不允许任何人申请加入群  kNeedVerifyJoinApply //申请加入群需要向创建者申请  kOnlyAdminCanSendMsg //仅创建者可以发消息
 
 ### 邀请加群，同意/拒绝邀请
 
